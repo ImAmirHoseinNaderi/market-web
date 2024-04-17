@@ -1,5 +1,5 @@
 body {
-  background-color: #eee;
+  background-color: white;
 }
 * {
   box-sizing: border-box;
@@ -63,13 +63,62 @@ transition: all 500ms;
     background-size: cover ;
   }
 }
+@media screen and (max-width:600px){
+  .mySwiper{
+    display: none;
+  }
+}
 
 .learn-bg {
   background-image:url('../public/img/background2.jpg');
   background-repeat: no-repeat;
   background-size: cover ;
 }
+.filter-open:focus .filter {
+  left: 0%;
+}
+.filter-close:focus .filter{
+  left: -100%;
+}
+.paginationbttn{
+  width: 80%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 20px;
+  overflow: hidden;
+  font-size: 15px;
+  
+}
+.paginationbttn a {
+  padding: 8px;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin: 8px;
+  background-color: #eee;
+  border-radius: 100%;
+}
+.paginationbttn a:hover{
+  background-color: rgb(57, 117, 220);
+  color: white;
+  transition-duration: .3s;
+}
+.activebttn a {
+  background-color: rgb(57, 117, 220);
+  color: white;
+  transition-duration: .3s;
+}
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+ 
+}
 
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
 
 
 

@@ -24,7 +24,7 @@ const Slider = () => {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper"
+        className=""
       >
         <SwiperSlide>
         <div className=" relative">

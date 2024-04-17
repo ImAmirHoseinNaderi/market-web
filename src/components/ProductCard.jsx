@@ -7,7 +7,7 @@ const ProductCard = ({}) => {
   return (
     <div className=" flex flex-col justify-center items-center bg-white rounded-lg border-[1px] border-gray-300 hover:shadow-xl duration-300">
       <Link>
-        <img className=" rounded-t-lg" src="./img/newcard.webp" alt="" />
+        <img className=" rounded-t-lg " src="/img/newcard.webp" alt="" />
       </Link>
       <div className="p-3 text-[10px] md:text-[16px]">
         <p>{t('p-head-product')} </p>

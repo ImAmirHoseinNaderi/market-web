@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { IoChevronDown } from "react-icons/io5";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-
+import { GrClose } from "react-icons/gr";
 const Modal = ({ bars, setBars }) => {
   const [t, i18n] = useTranslation("global");
   
@@ -17,7 +17,7 @@ const Modal = ({ bars, setBars }) => {
     <div className="flex justify-center items-center fixed top-0 bottom-0 left-0 right-0  z-20 text-white">
       <div className="w-[100%] h-[100%] backdrop-blur-lg bg-white/30 backdrop-brightness-50 px-5 py-2 flex flex-col justify-start items-center text-[26px] ">
         <button className="text-[50px] m-3 flex justify-start items-start w-full " onClick={() => setBars(false)}>
-          <i class="fa-solid fa-xmark"></i>
+          <GrClose/>
         </button>
         <Link className="my-1">{t('home')}</Link>
         <Link className="my-1">{t('contractus')}</Link>

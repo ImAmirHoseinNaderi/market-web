@@ -1,9 +1,6 @@
 import React from "react";
 import Slider from "./Slider";
 import ProductCard from "./ProductCard";
-import InformationCard from "./InformationCard";
-import NewsCard from "./NewsCard";
-import Footer from "./Footer";
 import Export from "./Export";
 import Aboutus from "./Aboutus";
 import Input from "./Input";
@@ -50,9 +47,7 @@ const Home = () => {
         </div>
         
         
-        <div className="">
-          <Footer/>
-        </div>
+       
       </div>
     </>
   );

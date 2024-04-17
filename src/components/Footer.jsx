@@ -13,12 +13,12 @@ const Footer = () => {
   const [t, i18n] = useTranslation("global");
 
   return (
-    <div className=" px-3  md:pt-[30px] md:px-[150px] mt-12 text-gray-600">
+    <div className=" px-3  md:pt-[30px] md:px-[150px] mt-12 text-gray-600 bg-gray-100">
       <div className=" md:grid grid-cols-4  gap-4 ">
         <div className="flex flex-col justify-start items-start text-[12px] col-span-1">
           <img
             className="w-[70px] h-[20px] m-2"
-            src="./img/astouch.webp"
+            src="/img/astouch.webp"
             alt=""
           />
           <p>+86 139-2581-1785</p>

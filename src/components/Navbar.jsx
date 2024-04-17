@@ -31,7 +31,7 @@ const Navbar = () => {
           <Link>
             <img
               className="h-[30px] w-[150px]"
-              src="./img/astouch.webp"
+              src="/img/astouch.webp"
               alt=""
             />
           </Link>
@@ -52,9 +52,9 @@ const Navbar = () => {
                       aria-current="page"
                       to="/"
                     >
-                      <Link
+                      <Link 
                         className="chevron-parent hover:text-blue-500 flex justify-center items-center pb-2 px-3"
-                        to="/"
+                        to="/products"
                       >
                         {t("products")}
                       </Link>
